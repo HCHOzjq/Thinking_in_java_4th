@@ -13,7 +13,7 @@ public class Turtle {
     f.format("%s The Turtle is at (%d,%d)\n", name, x, y);
   }
   public static void main(String[] args) {
-    PrintStream outAlias = System.out;
+    PrintStream outAlias = System.err;
     Turtle tommy = new Turtle("Tommy",
       new Formatter(System.out));
     Turtle terry = new Turtle("Terry",

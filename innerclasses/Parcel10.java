@@ -10,6 +10,7 @@ public class Parcel10 {
       // Instance initialization for each object:
       {
         cost = Math.round(price);
+        System.out.println(cost);
         if(cost > 100)
           System.out.println("Over budget!");
       }
@@ -19,7 +20,7 @@ public class Parcel10 {
   }	
   public static void main(String[] args) {
     Parcel10 p = new Parcel10();
-    Destination d = p.destination("Tasmania", 101.395F);
+    Destination d = p.destination("Tasmania", 102);
   }
 } /* Output:
 Over budget!
